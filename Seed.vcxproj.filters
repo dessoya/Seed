@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Файлы исходного кода">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Заголовочные файлы\Seed">
+      <UniqueIdentifier>{1591b3f2-e262-4ede-81f2-6778cebf3977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\lua">
+      <UniqueIdentifier>{12e11569-aef4-4fab-b072-1c8ea1689836}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\lua\DD">
+      <UniqueIdentifier>{268083f4-6a92-4ee6-b38b-183fc3fbc923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы исходного кода\lua\RO">
+      <UniqueIdentifier>{f4e3e7f4-28e2-44f8-b71b-284e03508064}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Starter.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\LuaScript.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\Windows.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\Queue.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\Thread.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\Array.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\LuaBaseClass.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\LuaCheck.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\DD\DD.cpp">
+      <Filter>Файлы исходного кода\lua\DD</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\DD\Output.cpp">
+      <Filter>Файлы исходного кода\lua\DD</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\DD\DrawMachine.cpp">
+      <Filter>Файлы исходного кода\lua\DD</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\Data.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\Image.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\RO\RBox.cpp">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\RO\RenderObject.cpp">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\RO\RImage.cpp">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\RO\RRect.cpp">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\RO\RText.cpp">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\Pack.cpp">
+      <Filter>Файлы исходного кода</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\Map.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\RO\RMap.cpp">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClCompile>
+    <ClCompile Include="Seed\lua\TerrainMap.cpp">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\Starter.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\LuaScript.h">
+      <Filter>Заголовочные файлы\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\LuaTypes.h">
+      <Filter>Заголовочные файлы\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\LuaBaseClass.h">
+      <Filter>Заголовочные файлы\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua.h">
+      <Filter>Заголовочные файлы\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\LuaLock.h">
+      <Filter>Заголовочные файлы\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\LuaClass.h">
+      <Filter>Заголовочные файлы\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\LuaCheck.h">
+      <Filter>Заголовочные файлы\Seed</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\Windows.h">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\DD\DD.h">
+      <Filter>Файлы исходного кода\lua\DD</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\DD\Output.h">
+      <Filter>Файлы исходного кода\lua\DD</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\DD\DrawMachine.h">
+      <Filter>Файлы исходного кода\lua\DD</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\Array.h">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\Data.h">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\Image.h">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\RO\RBox.h">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\RO\RenderObject.h">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\RO\RImage.h">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\RO\RRect.h">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\RO\RText.h">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Pack.h">
+      <Filter>Заголовочные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\Pack.h">
+      <Filter>Файлы исходного кода</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\Map.h">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\Queue.h">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\RO\RMap.h">
+      <Filter>Файлы исходного кода\lua\RO</Filter>
+    </ClInclude>
+    <ClInclude Include="Seed\lua\TerrainMap.h">
+      <Filter>Файлы исходного кода\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

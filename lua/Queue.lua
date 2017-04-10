@@ -1,0 +1,1 @@
+installModule("queue")
